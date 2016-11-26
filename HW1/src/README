@@ -1,0 +1,67 @@
+Name: Yang Cao
+USC loginid: cao522@aludra.usc.edu
+CSCI 455 PA1
+Fall 2016
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course.
+
+
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+If percentage of each possibility rounded to the nearest one percent, 
+there would be some inaccuracy of the result, such as, we add every 
+percentage of each possibility, the result maybe 99% instead of 100%.
+On the other hand, if we use 100% to minus the other two possibilities,
+the result may seems to be correct, but it isn't came out by real calculation.
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+1. The probability of two heads, one head and one tail and two tails is 25%, 50%,25% respectively.
+   Because we have two coins, we can name them coin1 and coin2. Consider one head and one tail, 
+   coin1 could be head and coin2 could be tail,on contrary, coin1 could be tail and coin2 could be 
+   head.So the probability of one head and one tail could be two times of the other two.
+
+2. By 5000 trials, 2%
+   By 10000 trials, 0-1%
+   So, about 500~10000 trials, I can get results within 1% of these probabilities.
+
+3. My program can do Integer.MAX(which means the maxim of int type in java) trials.
+   If we input a number bigger than Integer.MAX, it will overflow.
+   
+
+
+

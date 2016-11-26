@@ -1,0 +1,71 @@
+Name: Yang Cao
+USC loginid: cao522
+CSCI 455 PA4
+Spring 2016
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course.
+
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
+
+CLASS DESIGN:
+- GenText: mainly handle with error checking and file reading and generating. This class contains main method.
+		   This class has no class variables.
+- Prefix:  The class about Prefix, using Prefix as Hash key. This class implements pshiftIn, and override hashCode, 
+		   toString and equals method. The class only deal with the operation of prefix.
+- RandomTextGenerator: This class mainly handle with: create hash map ; generate successor ; choose a new initial prefix
+		   print debug information. 
+
+ALGORITHMS AND DATA STRUCTURES:
+- Using "HashMap<Prefix, ArrayList<String>>" to implement the algorithm.
+  Create a map cost: O(s), search for each successor cost: O(g), so the mainly algorithm takes time O(s+g).
+
+- Using LinkedList to store prefix.
+  Each time shift prefix by using a LinkedList(just add and remove one element) will cost O(1).
+
+- Using ArrayList to store successors.
+  Each time randomly generate a successor (by using get(index) method) for an exact key will cost O(1).
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+
+
+
+
